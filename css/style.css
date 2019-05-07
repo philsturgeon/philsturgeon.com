@@ -1,0 +1,95 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+.tile-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: calc(100vh - 1rem);
+  border: 0.5rem solid white;
+}
+
+.tile {
+  position: relative;
+  display: flex;
+  justify-content: stretch;
+  align-items: flex-end;
+  flex: 1 1 20em;
+  border: 0.5rem solid white;
+  background: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  transition: opacity 200ms;
+}
+.tile:hover, .tile:focus {
+  opacity: 1;
+}
+.tile:hover .tile__title, .tile:focus .tile__title {
+  border-bottom: 0.1em solid rgba(255, 255, 255, 0.35);
+}
+.tile:hover .tile__img, .tile:focus .tile__img {
+  -webkit-transform: scale(1.025);
+          transform: scale(1.025);
+}
+
+.tile__fig {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.tile__img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: -webkit-transform 500ms ease-out;
+  transition: transform 500ms ease-out;
+  transition: transform 500ms ease-out, -webkit-transform 500ms ease-out;
+}
+
+.tile__content {
+  flex: 1 1 100%;
+  position: relative;
+  z-index: 1;
+  padding: calc(1rem + 5%) 1rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 90%);
+}
+
+.tile__title {
+  display: inline-block;
+  font-size: calc(2rem + 2vmin);
+  margin: 0 auto 0.25rem;
+  border-bottom: 0.1em solid rgba(255, 255, 255, 0.15);
+}
+
+.tile__byline {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.tile--img {
+  min-height: 50vh;
+}
+.tile--img .tile__content {
+  padding-top: 20vh;
+}
+
+.tile--banner {
+  flex: 1 1 100%;
+  min-height: 25vh;
+  background: #89709b;
+  color: rgba(255, 255, 255, 0.9);
+}
+.tile--banner .tile__content {
+  align-self: center;
+  background: none;
+}
