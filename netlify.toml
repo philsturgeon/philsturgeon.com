@@ -1,3 +1,11 @@
 [[redirects]]
+  from = "/php/*"
+  to = "https://phil.tech/php/:splat"
+
+[[redirects]]
+  from = "/rest/*"
+  to = "https://phil.tech/rest/:splat"
+
+[[redirects]]
   from = "/20*"
   to = "https://phil.tech/20:splat"
