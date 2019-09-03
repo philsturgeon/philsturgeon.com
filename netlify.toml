@@ -1,11 +1,71 @@
 [[redirects]]
+  from = "/20*"
+  to = "https://phil.tech/20:splat"
+
+[[redirects]]
+  from = "/career/*"
+  to = "https://phil.tech/career/:splat"
+
+[[redirects]]
+  from = "/charity/*"
+  to = "https://phil.tech/charity/:splat"
+
+[[redirects]]
+  from = "/cms/*"
+  to = "https://phil.tech/cms/:splat"
+
+[[redirects]]
+  from = "/codeigniter/*"
+  to = "https://phil.tech/codeigniter/:splat"
+
+[[redirects]]
+  from = "/devops/*"
+  to = "https://phil.tech/devops/:splat"
+
+[[redirects]]
+  from = "/feminism/*"
+  to = "https://phil.tech/feminism/:splat"
+
+[[redirects]]
+  from = "/fuelphp/*"
+  to = "https://phil.tech/fuelphp/:splat"
+
+[[redirects]]
+  from = "/http/*"
+  to = "https://phil.tech/http/:splat"
+
+[[redirects]]
+  from = "/markdown/*"
+  to = "https://phil.tech/markdown/:splat"
+
+[[redirects]]
+  from = "/personal/*"
+  to = "https://phil.tech/personal/:splat"
+
+[[redirects]]
+  from = "/politics/*"
+  to = "https://phil.tech/politics/:splat"
+
+[[redirects]]
+  from = "/pyrocms/*"
+  to = "https://phil.tech/pyrocms/:splat"
+
+[[redirects]]
+  from = "/python/*"
+  to = "https://phil.tech/python/:splat"
+
+[[redirects]]
   from = "/php/*"
   to = "https://phil.tech/php/:splat"
+
+[[redirects]]
+  from = "/rails/*"
+  to = "https://phil.tech/rails/:splat"
 
 [[redirects]]
   from = "/rest/*"
   to = "https://phil.tech/rest/:splat"
 
 [[redirects]]
-  from = "/20*"
-  to = "https://phil.tech/20:splat"
+  from = "/ruby/*"
+  to = "https://phil.tech/ruby/:splat"
