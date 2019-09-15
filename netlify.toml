@@ -11,6 +11,10 @@
   to = "https://phil.tech/charity/:splat"
 
 [[redirects]]
+  from = "/api/*"
+  to = "https://phil.tech/api/:splat"
+
+[[redirects]]
   from = "/cms/*"
   to = "https://phil.tech/cms/:splat"
 
