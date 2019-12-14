@@ -6,23 +6,23 @@ body {
 .tile-container {
   display: flex;
   flex-wrap: wrap;
-  min-height: calc(100vh - 1rem);
-  border: 0.5rem solid white;
+  border: 0;
+  min-height: calc(50vh);
 }
 
 .tile {
-  position: relative;
-  display: flex;
-  justify-content: stretch;
   align-items: flex-end;
-  flex: 1 1 20em;
-  border: 0.5rem solid white;
   background: rgba(0, 0, 0, 0.8);
+  border: 1px solid white;
   color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex: 1 1 20em;
+  justify-content: stretch;
+  opacity: 0.9;
+  position: relative;
   text-align: center;
   text-decoration: none;
   text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
-  opacity: 0.9;
   transition: opacity 200ms;
 }
 .tile:hover, .tile:focus {
@@ -77,7 +77,7 @@ body {
 }
 
 .tile--img {
-  min-height: 50vh;
+  min-height: calc(50vh - 4px);
 }
 .tile--img .tile__content {
   padding-top: 20vh;
