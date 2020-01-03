@@ -1,5 +1,6 @@
 /20*                https://phil.tech/20:splat
 /blog/*             https://phil.tech/blog/:splat
+/blog/rss/all.rss   https://phil.tech/feed.xml
 /career/*           https://phil.tech/career/:splat
 /charity/*          https://phil.tech/charity/:splat
 /api/*              https://phil.tech/api/:splat
